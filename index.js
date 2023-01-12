@@ -8,10 +8,7 @@ async function main () {
     const browser = await puppeteer.launch({
         headless: true,
         //headless: false,
-        // ubuntu
-        //executablePath: '/snap/bin/chromium',
-        // ubuntu 18.04
-        executablePath: '/usr/bin/chromium-browser',
+        executablePath: '/usr/bin/chromium',
         args: ['--no-sandbox'],
     })
 
