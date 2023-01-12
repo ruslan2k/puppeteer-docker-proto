@@ -1,4 +1,3 @@
-# puppeteer-docker-proto
 # Puppeteer in Docker
 
 ## How to run
